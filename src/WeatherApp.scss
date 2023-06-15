@@ -1,0 +1,141 @@
+.weatherBody {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: cadetblue;
+  height: 100vh;
+  
+}
+.form-weth {
+  display: flex;
+  justify-content: center;
+}
+.input{
+  display: block;
+        font-size: 18px;
+        width: 30%;
+        margin-left: 0%;
+        margin-bottom: 0px;
+        height: 30px;
+        border-radius: 5px;
+        outline: 0;
+}
+.btn-weth {
+  background: #000000;
+  // border:none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: box-shadow .4s ease;
+  width: 120px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  height: 36px;
+  border-radius: 5px;
+  outline: 0;
+}
+.cardList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.app_heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.weather-data p {
+  font-size: 18px;
+  margin: 10px;
+}
+
+p.error {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+
+/* hdfgd */
+.weather-card {
+  flex: 0 25%;
+  // width: 300px;
+  border-radius: 6px;
+  box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+  color: #fff;
+  background-color: #333;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  text-decoration: none;
+}
+.button{
+  display: flex;
+  justify-content: flex-end;
+}
+.buttonDelete {
+  background-color: #fff;
+}
+
+.card-header,
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  // margin: 1rem;
+  letter-spacing: 1px;
+}
+.icon{
+  color: rgb(171, 90, 9);
+}
+.weather-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+}
+
+
+
+.weather-temp {
+  font-weight: 600;
+  font-size: 60px;
+  width: auto;
+  letter-spacing: .5px;
+  margin: 10px 0;
+}
+
+.weather-details {
+  width: 100%;
+  padding-left: 0px;
+}
+
+.parameters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.param-label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.param-val {
+  text-align: right;
+  font-weight: 700;
+  font-size: 16px;
+}
